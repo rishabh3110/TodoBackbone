@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: #FFFCEB;
+}
+.container {
+    margin: 0 auto;
+    width: 550px;
+}
+#new-todo {
+    width: 480px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.view {
+    line-height: 35px;
+    font-weight: 100;
+    font-size: 18px;
+    border-left: 1px solid red;
+    border-bottom: 1px solid #E2E2E2;
+}
+label {
+    margin-left: 10px;
+    line-height: 50px;
+}
+#main {
+    background-color: #FBFBFB;
+    box-shadow: 2px 2px 2px #333333;
+}
+.save-btn, #new-todo {
+    display: inline-block;
+    height: 28px;
+}
+.save-btn {
+    width: 42px;
+    border: 2px solid #989696;
+    background-color: #fafafa;
+    font-size: 17px;
+    margin-left: 12px;
+    border-radius: 10px;
+    color: #989696;
+    box-shadow: 2px 2px 2px #333333;
+    text-align: center;
+    line-height: 28px;
+}
+.save-btn:hover, .remove-btn:hover {
+    cursor: pointer;
+    color: #464646;
+    border: 2px solid #464646;
+    transition: background-color 1s ease-out;
+    background-color: #6DDE6C;
+}
+.remove-btn {
+    border: 2px solid #616161;
+    width: 100px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F5F4F4;
+    box-shadow: 4px 4px 4px #333333;
+    color: #6B6B6B;
+    text-align: center;
+    border-radius: 10px;
+}
+.checked label {
+    text-decoration: line-through;
+}
+h1 {
+    text-align: center;
+}
+.view:hover {
+    cursor: pointer;
+    transition: background-color 1s ease-out;
+    background-color: #dddddd;
+    border-top: 2px solid #cccccc;
+}

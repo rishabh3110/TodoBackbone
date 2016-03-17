@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "todo in backbone",
+  "main": "start.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabh3110/TodoBackbone.git"
+  },
+  "keywords": [
+    "TodoBackbone"
+  ],
+  "author": "Rishabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabh3110/TodoBackbone/issues"
+  },
+  "homepage": "https://github.com/rishabh3110/TodoBackbone#readme",
+  "dependencies": {}
+}
